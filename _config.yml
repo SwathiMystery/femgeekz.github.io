@@ -3,7 +3,7 @@ title: Ramble On
 email: swatzdev@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Learn. Unlearn. Relearn.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://femgeekz.github.io" # the base hostname & protocol for your site
 twitter_username: idevnull
 github_username:  SwathiMystery
