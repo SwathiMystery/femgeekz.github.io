@@ -2,6 +2,12 @@
 layout: post
 title: "Welcome"
 date: 2015-09-02T15:47:15+05:30
+author: Swathi Venkatachala
+tags:
+- blog
+- jekyll
+- gh-pages
+- migrate from blogger
 ---
 
 Welcome!
