@@ -23,8 +23,9 @@ my new blog.
 
 Simple steps to get [Disqus](https://disqus.com/) working on jekyll with gh-pages.
 Two parts:
-* Disqus and
-* jekyll
+
+1. Disqus and
+2. Jekyll
 
 ###Disqus
 
