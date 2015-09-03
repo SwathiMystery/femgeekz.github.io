@@ -8,6 +8,7 @@ tags:
 - jekyll
 - gh-pages
 - migrate from blogger
+comments: true
 ---
 
 Welcome!
