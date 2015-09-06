@@ -8,6 +8,9 @@ url: "http://femgeekz.github.io" # the base hostname & protocol for your site
 author: Swathi Venkatachala    
 twitter_username: idevnull
 github_username:  SwathiMystery
+
+# Google Analytics settings
+ga: UA-67247971-1    
 safe: true
 
 # Build settings
