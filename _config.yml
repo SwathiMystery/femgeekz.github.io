@@ -10,7 +10,7 @@ twitter_username: idevnull
 github_username:  SwathiMystery
 
 # Google Analytics settings
-ga: UA-67247971-1    
+ga: 'UA-67247971-1'
 safe: true
 
 # Build settings
