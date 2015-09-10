@@ -13,5 +13,9 @@ github_username:  SwathiMystery
 ga: 'UA-67247971-1'
 safe: true
 
+# Pagination
+paginate: 6
+paginate_path: "/page:num/"    
+
 # Build settings
 markdown: kramdown
