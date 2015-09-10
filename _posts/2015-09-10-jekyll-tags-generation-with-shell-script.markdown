@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Jekyll Tags Draft"
+layoua: post
+title: "Jekyll Tags Generation With Shell Script "
 date: 2015-09-10
 author: Swathi Venkatachala
 comments: true
