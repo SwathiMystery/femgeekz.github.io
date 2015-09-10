@@ -22,14 +22,16 @@
 
 # Configure here
 # Your blog URL goes here, without 'http://' and slashes!
+# CHANGE ME!
 BLOG_URL="femgeekz.github.io"
+
+# Optional layout file name for tags. Defaults to "tag_index"
+# CHANGE ME!, if you don't have `_layouts/tag_index.html`
+TAG_LAYOUT_FILE_NAME="tag_index"
 
 # Optional temporary file for output
 TMP_DIR="/tmp"
 OUT_TMP_FILE="$TMP_DIR/tags.txt"
-
-# Optional layout file name for tags. Defaults to "tag_index"
-TAG_LAYOUT_FILE_NAME="tag_index"
 
 #  http://femgeekz.github.io/tag
 TAG_URL_RESOURCE="tag"
