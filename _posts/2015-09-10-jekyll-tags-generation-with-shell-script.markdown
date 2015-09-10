@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Jekyll Tags Generation With Shell Script "
-date: 2015-09-10
+title: "Jekyll Tags Generation With Shell Script"
+date: 2015-09-10T00:30:15+05:30
 author: Swathi Venkatachala
 comments: true
 tags:
