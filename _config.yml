@@ -9,6 +9,9 @@ author: Swathi Venkatachala
 twitter_username: idevnull
 github_username:  SwathiMystery
 
+# Gems    
+gems:
+    - jekyll-feed 
 # Google Analytics settings
 ga: 'UA-67247971-1'
 safe: true
@@ -17,5 +20,9 @@ safe: true
 paginate: 6
 paginate_path: "/page:num/"    
 
+# Feed settings    
+feed:
+    path: atom.xml
+
 # Build settings
-markdown: kramdown
+markdown: kramdown   
