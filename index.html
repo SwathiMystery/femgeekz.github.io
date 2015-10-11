@@ -9,7 +9,7 @@ layout: default
 	<ul class="post-list">
 		{% for post in paginator.posts %}
 		<li>
-		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}  | Swathi Venkatachala</span>
 
 		<h2>
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -18,11 +18,10 @@ layout: default
 		{% if forloop.first %}
 		Tags:
 		{% endif %}
-		<a href="{{ site.url }}/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a>{% if forloop.last == false %} • {% endif %}
+		<a href="{{ site.url }}/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a>{% if forloop.last == false %} • 
+		{% endif %}
 		{% endfor %}
 		</p>
-
-
 		</li>
 		{% endfor %}
 	</ul>
