@@ -1,8 +1,8 @@
 ---
 layout: post
-author: Swathi Venkatachala
-title: SocketTimeoutException in HttpEntity
+title: "SocketTimeoutException in HttpEntity"
 date: 2016-09-24T18:45:26+05:30
+author: Swathi Venkatachala
 comments: true
 tags:
 - HttpEntity
