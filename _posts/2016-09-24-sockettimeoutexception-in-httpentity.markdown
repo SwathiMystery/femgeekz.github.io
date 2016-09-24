@@ -20,23 +20,23 @@ Follow the snippet along.
 
 {% highlight sh %}
 ...
-httpPost = new HttpPost(url); 
-httpPost.setEntity(requestEntity); 
-HttpCoreContext context = new HttpCoreContext(); 
-context.setAttribute(RETRY_COUNT, 0); 
-context.setAttribute(RETRY_REASON, new ArrayList<StatusLine>()); 
-httpResponse = httpClient.execute(httpPost, context); 
+httpPost = new HttpPost(url);
+httpPost.setEntity(requestEntity);
+HttpCoreContext context = new HttpCoreContext();
+context.setAttribute(RETRY_COUNT, 0);
+context.setAttribute(RETRY_REASON, new ArrayList<StatusLine>());
+httpResponse = httpClient.execute(httpPost, context);
 
 // custom ApiExchange class with the some setters
-apiExchange.setRequestHeaders(..); 
-apiExchange.setRequestSent(true); 
-apiExchange.setResponseStatus(httpResponse.getStatusLine()); 
+apiExchange.setRequestHeaders(..);
+apiExchange.setRequestSent(true);
+apiExchange.setResponseStatus(httpResponse.getStatusLine());
 ...
-apiExchange.setResponseHeaders(Arrays.asList(httpResponse.getAllHeaders())); 
-apiExchange.setResponseEntity(httpResponse.getEntity()); 
+apiExchange.setResponseHeaders(Arrays.asList(httpResponse.getAllHeaders()));
+apiExchange.setResponseEntity(httpResponse.getEntity());
 
 // consume it all before its gone 
-apiExchange.setResponseEntityString(EntityUtils.toString(httpResponse.getEntity())); 
+apiExchange.setResponseEntityString(EntityUtils.toString(httpResponse.getEntity()));
 
 ...
 {% endhighlight %}
