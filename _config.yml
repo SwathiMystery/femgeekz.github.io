@@ -11,7 +11,9 @@ github_username:  SwathiMystery
 
 # Gems    
 gems:
-    - jekyll-feed 
+    - jekyll-feed
+    - jekyll-paginate
+
 # Google Analytics settings
 ga: 'UA-67247971-1'
 safe: true
