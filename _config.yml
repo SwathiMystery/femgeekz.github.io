@@ -11,7 +11,7 @@ github_username:  SwathiMystery
 
 # Gems    
 gems:
-    - jekyll-feed
+    - jekyll-feed 
 # Google Analytics settings
 ga: 'UA-67247971-1'
 safe: true
@@ -25,4 +25,4 @@ feed:
     path: atom.xml
 
 # Build settings
-markdown: kramdown   
+markdown: kramdown
