@@ -18,6 +18,7 @@ find that culprit. If you faced a similar situation while using HttpEntity, I ha
 
 Follow the snippet along.
 
+{% highlight sh %}
 httpPost = new HttpPost(url);
 httpPost.setEntity(requestEntity);
 HttpCoreContext context = new HttpCoreContext();
@@ -34,6 +35,7 @@ apiExchange.setResponseEntity(httpResponse.getEntity());
 // consume it all before its gone
 apiExchange.setResponseEntityString(EntityUtils.toString(httpResponse.getEntity()));
 …
+{% endhighlight %}
 
 The key point here to note is `httpResponse.getEntity()` returns `HttpEntity` is hooked up with the same
 underlying connection. So we have to consume the required repsonse content as `EntityUtils.toString(httpResponse.getEntity())` before the `HttpResponse` is close. Having failed to do that the connection will be reset and throws the
