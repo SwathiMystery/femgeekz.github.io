@@ -11,14 +11,18 @@ github_username:  SwathiMystery
 
 # Gems    
 gems:
-    - jekyll-feed 
+    - jekyll-feed
+    - jekyll-paginate 
 # Google Analytics settings
 ga: 'UA-67247971-1'
 safe: true
 
+future: true
+
 # Pagination
 paginate: 6
 paginate_path: "/page:num/"    
+published: true
 
 # Feed settings    
 feed:
