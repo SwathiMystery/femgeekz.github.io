@@ -16,10 +16,10 @@ Here's a recipe of a self discovered Bread Toast and it just takes couple of min
 
 ###Ingredients
 
-- Whole Wheat Bread Slices 
-- Ghee / Olive oil
-- Basil Leaves for Seasoning 
-- Oregano for Seasoning
+1. Whole Wheat Bread Slices 
+2. Ghee / Olive oil
+3. Basil Leaves for Seasoning 
+4. Oregano for Seasoning
 
 ###Procedure
 
