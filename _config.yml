@@ -18,8 +18,6 @@ ga: 'UA-67247971-1'
 safe: true
 
 future: true
-feed:
-  path: feed.xml
 
 # Pagination
 paginate: 6
@@ -28,7 +26,7 @@ published: true
 
 # Feed settings    
 feed:
-    path: atom.xml
+    path: feed.xml
 
 # Build settings
 markdown: kramdown
