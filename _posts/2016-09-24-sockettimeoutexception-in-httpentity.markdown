@@ -37,8 +37,9 @@ apiExchange.setResponseEntityString(EntityUtils.toString(httpResponse.getEntity(
 …
 {% endhighlight %}
 
-The key point here to note is `httpResponse.getEntity()` returns `HttpEntity` is hooked up with the same
-underlying connection. So we have to consume the required repsonse content as `EntityUtils.toString(httpResponse.getEntity())` before the `HttpResponse` is close. Having failed to do that the connection will be reset and throws the
+The key point here to note is `httpResponse.getEntity()` returns `HttpEntity` which is hooked up with the same
+underlying connection. 
+So we have to consume the required repsonse content as `EntityUtils.toString(httpResponse.getEntity())` before the `HttpResponse` is closed. Having failed to do that, the connection will reset and will throw the
 `Socket closed Error`.
 
 Happy Debugging! :)
