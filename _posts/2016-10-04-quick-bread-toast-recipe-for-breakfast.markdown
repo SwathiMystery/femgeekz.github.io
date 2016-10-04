@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quick Bread Toast Recipe For Breakfast
+title: "Quick Bread Toast Recipe For Breakfast"
 date: 2016-10-04T13:15:17+05:30
 author: Swathi Venkatachala
 comments: true
@@ -15,14 +15,14 @@ tags:
 Here's a recipe of a self discovered Bread Toast and it just takes couple of minutes.
 
 
-##Ingredients
+### Ingredients
 
 1. Whole Wheat Bread Slices 
 2. Ghee / Olive oil
 3. Basil Leaves for Seasoning 
 4. Oregano for Seasoning
 
-##Procedure
+### Procedure
 
 1. Toast the bread slices for a minute on a hot pan until it turns golden brown. You may try this even with a toaster. 
 2. Once the bread is crisp, smear 1/2tbsp of Ghee on the bread and press on the bread.
