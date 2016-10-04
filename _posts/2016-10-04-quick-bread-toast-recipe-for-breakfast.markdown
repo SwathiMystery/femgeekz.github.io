@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quick Bread Toast Recipe For Breakfast"
-date: 2016-10-04T13:15:17+05:30
+date: 2016-10-03T01:28:58+05:30
 author: Swathi Venkatachala
 comments: true
 tags:
