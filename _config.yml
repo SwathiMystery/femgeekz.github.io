@@ -18,6 +18,8 @@ ga: 'UA-67247971-1'
 safe: true
 
 future: true
+feed:
+  path: feed.xml
 
 # Pagination
 paginate: 6
