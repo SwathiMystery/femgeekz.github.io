@@ -17,7 +17,7 @@ gems:
 ga: 'UA-67247971-1'
 safe: true
 
-future: true
+#future: true
 
 # Pagination
 paginate: 6
