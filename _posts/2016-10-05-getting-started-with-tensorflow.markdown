@@ -41,7 +41,7 @@ Well, the answer is yes - The team at Google has introduced `Tensorflow Serving`
 
 *Tensorflow Serving - Source : [Serving](https://tensorflow.github.io/serving/)*
 
-The main intent here is that the developers train their models first using TensorFlow. Then, they use TensorFlow Serving’s APIs to react to input from a client. This is accomplished by a front-end implementation of gRPC.
+The main intent here is, that the developers train their models first using TensorFlow. Then, they use TensorFlow Serving’s APIs to react to input from a client. This is then accomplished by a front-end implementation of gRPC.
 
 > gRPC is a modern open source high performance RPC framework which can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication.
 
@@ -49,9 +49,9 @@ The main intent here is that the developers train their models first using Tenso
 
 ### Getting Started
 
-To install Tensorflow, lets go for the Virtualenv installation, which will not disturb any existing Python programs on your machine, follow these [steps](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#virtualenv-installation)
+To install Tensorflow, lets go with the Virtualenv installation, which will not disturb any existing Python programs on your machine. Follow these [steps](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#virtualenv-installation) for installation.
 
-To test if the installation works, the example from the Tensorflow documentation itself.
+To test if the installation works, lets pick the example from the Tensorflow documentation.
 
 {% highlight sh %}
 $ python
