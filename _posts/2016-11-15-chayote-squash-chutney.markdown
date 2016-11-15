@@ -11,6 +11,7 @@ tags:
 - dinner
 - easy recipe
 - chutney
+- South Indian
 - squash
 ---
 
