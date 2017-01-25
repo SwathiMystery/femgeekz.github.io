@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Development Philosophy
-date: 2017-02-25
+date: 2017-01-25
 author: Swathi Venkatachala
 comments: true
 tags:
